@@ -9,9 +9,11 @@ import Contacto from "./views/Contacto";
 import Faqs from "./views/Faqs";
 import Home from "./views/Home/Home";
 import NotFound from "./views/NotFound/NotFound";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
+    <Footer></Footer>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/que-hacemos" element={<QueHacemos />} />
