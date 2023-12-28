@@ -1,7 +1,7 @@
 
 import './App.css'
 import {Routes,Route} from "react-router-dom";
-import QueHacemos from "./views/QueHacemos"
+import QueHacemos from "./views/queHacemos/QueHacemos"
 import Analisis from "./views/Analisis"
 import Servicios from "./views/Servicios"
 import QuienesSomos from "./views/QuienesSomos"

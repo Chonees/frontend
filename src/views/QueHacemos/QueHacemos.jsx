@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import "./QueHacemos.css";
 const QueHacemos= ()=>{
     // Estado para controlar la visibilidad de las respuestas
-    const [mostrarRespuestas, setMostrarRespuestas] = useState([false, false, false]);
+    const [mostrarRespuestas, setMostrarRespuestas] = useState([false]);
+
 
       // Función para cambiar la visibilidad de una respuesta específica
     const toggleRespuesta = (index) => {
@@ -12,6 +13,9 @@ const QueHacemos= ()=>{
       nuevosEstados[index] = !nuevosEstados[index];
       return nuevosEstados;
     });
+    const handleClick = (index) => {
+      setMostrarRespuestas(!mostrarRespuestas[index]);
+    };
   };
     return (
         <>        
@@ -94,9 +98,12 @@ const QueHacemos= ()=>{
               </ul>
             </div>
             <div>
-              <h3>Pilares de intervencion</h3>
-              <p>Trabajaremos en revitalizar, detoxificar, optimizar y recalibrar tu organismo de forma sistematica yendo a las causas detras de tus sintomas mediante intervenciones personalizadas en nuestros seis pilares:</p>
-              
+              <h3>- Modelo de atencion P4 -</h3>
+              <div>
+                <h4 onClick={()=> handleClick(0)}>Personalizado</h4>
+                {mostrarRespuestas[2] && <p>Respuesta 2</p>}
+                
+              </div>
             </div>
 
           </div>
