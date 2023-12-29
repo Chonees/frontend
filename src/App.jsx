@@ -5,7 +5,7 @@ import Analisis from "./views/Analisis";
 import Servicios from "./views/Servicios";
 import QuienesSomos from "./views/QuienesSomos";
 import Redes from "./views/Redes";
-import Contacto from "./views/Contacto";
+import Contacto from "./views/Contacto/Contacto";
 import Faqs from "./views/Faqs";
 import Home from "./views/Home/Home";
 import NotFound from "./views/NotFound/NotFound";
