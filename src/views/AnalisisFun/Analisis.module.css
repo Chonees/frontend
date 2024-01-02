@@ -1,6 +1,7 @@
 .contenedorPrincipal{
     margin-bottom: 20px;
     margin-left: 40px;
+    margin-right: 35px;
 }
 
  /* inicio primer section */
@@ -76,4 +77,55 @@
     cursor: pointer;
     margin-bottom: 75px;
 
+}
+/* inicio segundo section */
+/* inicio tercer section */
+.four{
+    margin-bottom: 80px;
+   /*  background-color: #e6f0f8; */
+    
+}
+.contenedor5{
+    width: 60%;
+    margin: 0 auto;
+   
+}
+.titulo3{
+    font-size: 28.8px;
+    font-family: Gorgita;
+    color: #356c74;
+    text-align: center;
+}
+
+.parrafo1{
+    font-size: 28.8px;
+    font-family: chronicle display;
+
+}
+.contenedor6{
+    max-width: 100%;
+    
+}
+.textos{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.textos li{
+    font-size: 14.4px;
+    font-family: Gordita;
+    width: 200px;
+    list-style: none;
+    padding-bottom: 35px;
+}
+.ele{
+    flex: 1 0 auto;
+}
+.contenedor7{
+    width: 80%;
+    margin: 0 auto;
+}
+.parrafo2{
+    font-size: 20px;
+    font-family: chronicle display;
 }
