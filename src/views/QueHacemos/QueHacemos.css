@@ -1,29 +1,29 @@
 /* Estilos generales para el contenedor del componente */
-div {
+/* div {
   max-width: 600px;
   margin: auto;
   padding: 20px;
   background-color: #f4f4f4;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Estilos para cada sección de pregunta y respuesta */
-div > div {
+/* div > div {
   margin-bottom: 20px;
   padding: 15px;
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Estilos para las preguntas */
-h3 {
+/* h3 {
   color: #333333;
-}
+} */
 
 /* Estilos para los botones de mostrar respuesta */
-button {
+/* button {
   padding: 8px 12px;
   background-color: #3498db;
   color: #ffffff;
@@ -35,11 +35,11 @@ button {
 
 button:hover {
   background-color: #2980b9;
-}
+} */
 
 /* Estilos para las respuestas */
-p {
+/* p {
   margin-top: 10px;
   color: #555555;
-}
+} */
 
