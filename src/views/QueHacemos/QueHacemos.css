@@ -1,45 +1,111 @@
-/* Estilos generales para el contenedor del componente */
-div {
-  max-width: 600px;
-  margin: auto;
-  padding: 20px;
-  background-color: #f4f4f4;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.style-0 {
+  height: 642.172px;
+  padding-top: 0px;
+  grid-template-rows: 602.172px;
+  padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: 87.1562px 87.1562px 87.1562px 87.1562px 87.1562px 87.1562px 87.1562px 87.1562px 87.1562px 87.1562px 87.1562px 87.1562px;
+  gap: 16px;
+  width: 100%;
+  max-width: 1307px;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-content: baseline;
+  flex: 1 1 0%;
+  scroll-margin-top: 18.7734px;
+  box-sizing: border-box;
 }
 
-/* Estilos para cada sección de pregunta y respuesta */
-div > div {
-  margin-bottom: 20px;
-  padding: 15px;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.style-1 {
+  grid-column: 1 / 7;
+  align-items: flex-end;
+  display: flex;
+  grid-auto-rows: minmax(min-content, max-content);
+  scroll-margin-top: 18.7734px;
+  box-sizing: border-box;
 }
 
-/* Estilos para las preguntas */
-h3 {
-  color: #333333;
+.style-2 {
+  margin-bottom: 0px;
+  font-size: 56px;
+  line-height: 61.6px;
+  font-weight: 400;
+  margin-top: 0px;
+  font-family: 'Chronicle Display', serif;
+  scroll-margin-top: 62.3438px;
+  box-sizing: border-box;
 }
 
-/* Estilos para los botones de mostrar respuesta */
-button {
-  padding: 8px 12px;
-  background-color: #3498db;
-  color: #ffffff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+.style-3 {
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 1.3s ease 0.3s, transform 1.3s ease 0.3s;
+  opacity: 1;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  transition: opacity 1.3s ease 0.3s, transform 1.3s ease 0.3s;
+  display: block;
+  scroll-margin-top: 62.3438px;
+  box-sizing: border-box;
 }
 
-button:hover {
-  background-color: #2980b9;
+.style-4 {
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 1.3s ease 0.6s, transform 1.3s ease 0.6s;
+  opacity: 1;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  transition: opacity 1.3s ease 0.6s, transform 1.3s ease 0.6s;
+  display: block;
+  scroll-margin-top: 62.3438px;
+  box-sizing: border-box;
 }
 
-/* Estilos para las respuestas */
-p {
-  margin-top: 10px;
-  color: #555555;
+.style-5 {
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 1.3s ease 0.9s, transform 1.3s ease 0.9s;
+  opacity: 1;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  transition: opacity 1.3s ease 0.9s, transform 1.3s ease 0.9s;
+  display: block;
+  scroll-margin-top: 62.3438px;
+  box-sizing: border-box;
 }
 
+.style-6 {
+  grid-column: 7 / 13;
+  padding-top: 0px;
+  align-items: flex-end;
+  display: flex;
+  grid-auto-rows: minmax(min-content, max-content);
+  scroll-margin-top: 18.7734px;
+  box-sizing: border-box;
+}
+
+.style-7 {
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 1.3s ease 1.3s, transform 1.3s ease 1.3s;
+  opacity: 1;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  transition: opacity 1.3s ease 1.3s, transform 1.3s ease 1.3s;
+  font-size: 28.8px;
+  margin-bottom: 0px;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 0px;
+  scroll-margin-top: 37.5469px;
+  box-sizing: border-box;
+}
+.style-8 {
+  scroll-margin-top: 29.7246px;
+  width: 100%;
+  height: 1283.64px;
+  vertical-align: bottom;
+  box-sizing: border-box;
+  border-style: none;
+}
