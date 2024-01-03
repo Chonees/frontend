@@ -4,8 +4,13 @@
    
     width: 100%;
     height: 50%;
+
     position: bottom;
     bottom: 0;
+
+    /* position: fixed; */
+ 
+
     
    
   }
