@@ -1,7 +1,14 @@
 import styles from "./Analisis.module.css"
 import { NavLink } from "react-router-dom";
 
+
+
+
 const Analisis =()=>{
+  
+  const elementos=["Función digestiva y permeabilidad intestinal", "Función hormonal, reproductiva y fertilidad","Metabolismo y fluctuaciones de peso","Función neuroendocrina y cognitiva","Función inmune e inflamación crónica","Nutrición celular e intracelular","Estrés, energía y fatiga crónica","Ritmo circadiano y melatonina","Marcadores epigenéticos y envejecimiento celular","Panel cardiovascular funcional avanzado","Alergias, Intolerancias y sensibilidades alimentarias","Reacción cruzada al gluten y otras moléculas del trigo"]
+
+
   return (  
   
   <div className={styles.contenedorPrincipal}>
@@ -54,6 +61,29 @@ Lifestyle & Functional Medicine. Para conocer más sobre nuestra metodología in
         <NavLink to={`/que-hacemos`}>
     <button className={styles.boton1}>Conocer más </button>
     </NavLink>
+
+    <div className={styles.four}>
+    <div className={styles.contenedor5}>
+      <h2 className={styles.titulo3}>¿Qué analizan?</h2>
+      <p className={styles.parrafo1}>Investigan el comportamiento único de tu organismo a nivel celular en sus diferentes funciones y sistemas de forma integrada. Estos son algunos de los biomarcadores que analizamos:</p>
+    </div>
+    <hr />
+    <div className={styles.contenedor6}>
+      <ul className={styles.textos}>
+      {elementos.map((ele,index)=>{
+        return  <div className={styles.ele} key={index}><img  src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" width="30px"></img><li >{ele}</li> </div> 
+      })}
+
+      </ul>
+     </div>
+     <hr />
+    <div className={styles.contenedor7}>
+      <p className={styles.parrafo2}>Una vez obtenidos los resultados, se realiza una evaluación funcional personalizada para comprender cómo los diferentes sistemas biológicos interactúan entre sí, en el marco de la historia clínica y los motivos de la consulta de cada persona.</p>
+    </div>
+
+    </div>
+   
+
 
      
     </div>
