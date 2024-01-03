@@ -3,7 +3,7 @@ const Contacto=()=>{
     return (
         <>
        
-        <form>
+        <form action="https://formsubmit.co/lucasbranchini196@gmail.com" method="POST" >
             <h2>Contacto</h2>
             <div class= "input-group">
                 <label for="nombre">Nombre: </label>
