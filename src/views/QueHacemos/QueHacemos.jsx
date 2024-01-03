@@ -13,32 +13,25 @@ const QueHacemos= ()=>{
       nuevosEstados[index] = !nuevosEstados[index];
       return nuevosEstados;
     });
+
     const handleClick = (index) => {
       setMostrarRespuestas(!mostrarRespuestas[index]);
     };
   };
     return (
         <>        
-          <div>
-            <h1>
-              <span>
-                Lifestyle &amp; 
-              </span>
-
-              <span>
-                Functional 
-              </span>
-
-              <span>
-                Medicine. 
-              </span>
-            </h1>
-            <div>
-              <h2 >
-                Un abordaje de vanguardia para optimizar tu relación con tu salud y tu manera de vivir.
-              </h2>
-            </div>
-          </div>
+          <section class="style-0">
+              <div class="style-1">
+                  <h1 class="style-2">
+                    <span class="style-3" data-sr-id="6">Lifestyle &amp; </span>
+                    <span class="style-4" data-sr-id="14">Functional </span>
+                    <span class="style-5" data-sr-id="15">Medicine. </span></h1>
+              </div>
+              <div class="style-6">
+                  <h2 class="style-7" data-sr-id="20">Un abordaje de vanguardia para optimizar tu relación con tu salud y tu manera de vivir.</h2>
+              </div>
+          </section>
+          <img src="https://mindlatam.com/wp-content/themes/mind/img/que-hacemos/que-hacemos-1.jpg" alt="Quienes somos" width="1920" height="1287" loading="lazy" decoding="async" class="style-0" />
          <div>
             <hr/>
             <h2>
@@ -100,7 +93,7 @@ const QueHacemos= ()=>{
             <div>
               <h3>- Modelo de atencion P4 -</h3>
               <div>
-                <h4 onClick={()=> handleClick(0)}>Personalizado</h4>
+                <h4 onClick={()=> handleClick()}>Personalizado</h4>
                 {mostrarRespuestas[2] && <p>Respuesta 2</p>}
                 
               </div>
