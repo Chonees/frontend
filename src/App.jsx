@@ -6,7 +6,7 @@ import Servicios from "./views/Servicios";
 import QuienesSomos from "./views/QuienesSomos";
 import Redes from "./views/Redes";
 import Contacto from "./views/Contacto";
-import Faqs from "./views/Faqs";
+import Faqs from "./views/Faqs/Faqs.jsx";
 import Home from "./views/Home/Home";
 import NotFound from "./views/NotFound/NotFound";
 import Footer from "./components/Footer/Footer";
