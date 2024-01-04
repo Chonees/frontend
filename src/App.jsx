@@ -10,10 +10,12 @@ import Faqs from "./views/Faqs/Faqs.jsx";
 import Home from "./views/Home/Home";
 import NotFound from "./views/NotFound/NotFound";
 import Footer from "./components/Footer/Footer";
+import Navbar from "./components/NavBar/Navbar.jsx";
 
 function App() {
   return (
     <>
+      <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/que-hacemos" element={<QueHacemos />} />
@@ -26,6 +28,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer></Footer>
+      <Footer />
     </>
   );
 }
