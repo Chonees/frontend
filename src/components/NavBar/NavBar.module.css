@@ -1,2 +1,30 @@
 .navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  height: auto;
+  padding: 30px;
+}
+
+.navLink {
+  font-family: "Gordita", sans-serif;
+  text-decoration: none;
+  font-size: 19px;
+  color: rgb(59, 59, 59);
+  line-height: 1.15;
+  margin: 0 10px;
+  font-stretch: expanded;
+  font-weight: lighter;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  background-image: url("ruta/de/la/imagen.jpg");
+  background-size: cover;
+  width: 100px;
+  padding-right: 25vw;
+  padding-left: 2vw;
 }
