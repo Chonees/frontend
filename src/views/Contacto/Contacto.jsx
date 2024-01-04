@@ -2,30 +2,27 @@ import "../Contacto/Contacto.css"
 const Contacto=()=>{
     return (
         <>
-       
-        <form action="https://formsubmit.co/lucasbranchini196@gmail.com" method="POST" >
-            <h2>Contacto</h2>
-            <div class= "input-group">
-                <label for="nombre">Nombre: </label>
-                <input type="text" name="name" id="name" placeholder="Nombre"/>
-                
-                <label for="phone">Telefono: </label> 
-                <input type="tel" name="phone" id="phone" placeholder="Telefono"/>
-               
-                <label for="email">Email: </label> 
-                <input type="email" name="email" id="email" placeholder="Email"/>
-                
-                <label for="message">Mensaje</label> 
-                <textarea name="message" id="message" cols="30"  rows="5" placeholder="Mensaje"></textarea>
-                
-                <div class="form-txt">
-                    <a href="#">Politica de privacidad</a>
-                    <a href="#">Terminos y condiciones</a>
-                </div>
-                <input class="btn" type="submit" value="Enviar"/>
+         
+            <section class="style-0">
+    <div class="style-1">
+        <h1 class="style-2"><span class="style-3" data-sr-id="0"> ¿Cómo </span><span class="style-4" data-sr-id="2"> podemos </span><span class="style-5" data-sr-id="3"> ayudarte? </span></h1>
+    </div>
+    <div class="style-6">
+        <h2 class="style-7"><span class="style-8" data-sr-id="4">Contactanos</span> <span class="style-9" data-sr-id="5">para dar</span> <span class="style-10" data-sr-id="7">tu primer paso. </span> <br class="style-11" /></h2>
+    </div>
+</section>
+<section>
+    <form>
+    <p class="style-12"><span class="style-13" data-name="mind-name"><input size="40" class="style-14" aria-required="true" aria-invalid="false" placeholder="*Nombre completo" value="" type="text" name="mind-name" /></span></p>
+    <p class="style-15"><span class="style-16" data-name="mind-tel"><input size="40" class="style-17" aria-required="true" aria-invalid="false" placeholder="*Teléfono" value="" type="tel" name="mind-tel" /></span></p>
+    <p class="style-18"><span class="style-19" data-name="mind-email"><input size="40" class="style-20" aria-required="true" aria-invalid="false" placeholder="*Mail" value="" type="email" name="mind-email" /></span></p>
+   <button class="style-21" type="submit">Enviar<span class="style-22"></span></button>
 
-            </div>
-        </form>
+
+            </form>
+</section>
+<section class="style-23"></section>
+            
 
           
         

@@ -1,3 +1,295 @@
+
+.style-0 {
+    height: 430.969px;
+    padding-bottom: 80px;
+    padding-top: 0px;
+    grid-template-rows: 350.969px;
+    display: grid;
+    grid-template-columns: 92.0781px 92.0781px 92.0781px 92.0781px 92.0781px 92.0781px 92.0781px 92.0781px 92.0781px 92.0781px 92.0781px 92.0938px;
+    gap: 16px;
+    width: 100%;
+    max-width: 1366px;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-content: baseline;
+    flex: 1 1 0%;
+    scroll-margin-top: 18.7734px;
+    box-sizing: border-box;
+}
+
+.style-1 {
+    grid-column: 1 / 6;
+    align-items: flex-end;
+    display: flex;
+    grid-auto-rows: minmax(min-content, max-content);
+    scroll-margin-top: 18.7734px;
+    box-sizing: border-box;
+}
+
+.style-2 {
+    margin-bottom: 0px;
+    font-size: 56px;
+    line-height: 61.6px;
+    font-weight: 400;
+    margin-top: 0px;
+    font-family: 'Chronicle Display', serif;
+    scroll-margin-top: 62.3438px;
+    box-sizing: border-box;
+}
+
+.style-3 {
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 1.3s ease 0.3s, transform 1.3s ease 0.3s;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: opacity 1.3s ease 0.3s, transform 1.3s ease 0.3s;
+    display: block;
+    scroll-margin-top: 62.3438px;
+    box-sizing: border-box;
+}
+
+.style-4 {
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 1.3s ease 0.6s, transform 1.3s ease 0.6s;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: opacity 1.3s ease 0.6s, transform 1.3s ease 0.6s;
+    display: block;
+    scroll-margin-top: 62.3438px;
+    box-sizing: border-box;
+}
+
+.style-5 {
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 1.3s ease 0.9s, transform 1.3s ease 0.9s;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: opacity 1.3s ease 0.9s, transform 1.3s ease 0.9s;
+    display: block;
+    scroll-margin-top: 62.3438px;
+    box-sizing: border-box;
+}
+
+.style-6 {
+    grid-column: 6 / 12;
+    padding-top: 0px;
+    align-items: flex-end;
+    display: flex;
+    grid-auto-rows: minmax(min-content, max-content);
+    scroll-margin-top: 18.7734px;
+    box-sizing: border-box;
+}
+
+.style-7 {
+    font-size: 28.8px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 0px;
+    scroll-margin-top: 37.5469px;
+    box-sizing: border-box;
+}
+
+.style-8 {
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 1.3s ease 1.2s, transform 1.3s ease 1.2s;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: opacity 1.3s ease 1.2s, transform 1.3s ease 1.2s;
+    display: inline-block;
+    scroll-margin-top: 37.5469px;
+    box-sizing: border-box;
+}
+
+.style-9 {
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 1.3s ease 1.4s, transform 1.3s ease 1.4s;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: opacity 1.3s ease 1.4s, transform 1.3s ease 1.4s;
+    display: inline-block;
+    scroll-margin-top: 37.5469px;
+    box-sizing: border-box;
+}
+
+.style-10 {
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 1.3s ease 1.6s, transform 1.3s ease 1.6s;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: opacity 1.3s ease 1.6s, transform 1.3s ease 1.6s;
+    display: inline-block;
+    scroll-margin-top: 37.5469px;
+    box-sizing: border-box;
+}
+
+.style-11 {
+    scroll-margin-top: 37.5469px;
+    box-sizing: border-box;
+}
+.style-12 {
+    font-size: 14.4px;
+    margin-bottom: 16px;
+    scroll-margin-top: 18.7734px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.style-13 {
+    scroll-margin-top: 18.7734px;
+    box-sizing: border-box;
+}
+
+.style-14 {
+    font-family: Gordita, sans-serif;
+    font-size: 14.4px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(0, 0, 0);
+    border-right: 0px none rgb(0, 0, 0);
+    border-left: 0px none rgb(0, 0, 0);
+    border-image: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 16px 0px 24px;
+    margin-bottom: 16px;
+    box-shadow: none;
+    scroll-margin-top: 18.7734px;
+    box-sizing: border-box;
+    overflow: visible;
+    line-height: 16.56px;
+    margin: 0px 0px 16px;
+}
+.style-15 {
+    font-size: 14.4px;
+    margin-bottom: 16px;
+    scroll-margin-top: 18.7734px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.style-16 {
+    scroll-margin-top: 18.7734px;
+    box-sizing: border-box;
+}
+
+.style-17 {
+    font-family: Gordita, sans-serif;
+    font-size: 14.4px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(0, 0, 0);
+    border-right: 0px none rgb(0, 0, 0);
+    border-left: 0px none rgb(0, 0, 0);
+    border-image: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 16px 0px 24px;
+    margin-bottom: 16px;
+    box-shadow: none;
+    scroll-margin-top: 18.7734px;
+    box-sizing: border-box;
+    overflow: visible;
+    line-height: 16.56px;
+    margin: 0px 0px 16px;
+}
+.style-18 {
+    font-size: 14.4px;
+    margin-bottom: 16px;
+    scroll-margin-top: 18.7734px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.style-19 {
+    scroll-margin-top: 18.7734px;
+    box-sizing: border-box;
+}
+
+.style-20 {
+    font-family: Gordita, sans-serif;
+    font-size: 14.4px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-top: 0px none rgb(0, 0, 0);
+    border-right: 0px none rgb(0, 0, 0);
+    border-left: 0px none rgb(0, 0, 0);
+    border-image: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 16px 0px 24px;
+    margin-bottom: 16px;
+    box-shadow: none;
+    scroll-margin-top: 18.7734px;
+    box-sizing: border-box;
+    overflow: visible;
+    line-height: 16.56px;
+    margin: 0px 0px 16px;
+}
+.style-21 {
+    width: auto !important;
+    opacity: 1;
+    color: rgb(6, 87, 110);
+    font-family: Gordita, sans-serif;
+    font-size: 14.4px;
+    appearance: button;
+    will-change: opacity, transform;
+    transition: all 0.3s ease-out 0s;
+    cursor: pointer;
+    outline: rgb(6, 87, 110) none 0px;
+    border-radius: 100px;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    padding: 16px 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 14.4px;
+    text-decoration: none solid rgb(6, 87, 110);
+    text-transform: lowercase;
+    white-space: nowrap;
+    scroll-margin-top: 18.7734px;
+    box-sizing: border-box;
+    overflow: visible;
+    margin: 0px;
+}
+
+.style-22 {
+    display: none;
+    width: 2.2rem;
+    height: 17.6px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-image: none;
+    border-color: rgb(255, 255, 255) rgb(0, 0, 0) rgb(255, 255, 255) rgb(255, 255, 255);
+    animation: 1s linear 0s infinite normal none running s2;
+    margin-right: -16px;
+    margin-left: 16px;
+    scroll-margin-top: 18.7734px;
+    box-sizing: border-box;
+}
+.style-23 {
+    background-image: url(https://mindlatam.com/wp-content/themes/mind/img/contacto/contacto-1.jpg);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    min-height: 653px;
+    scroll-margin-top: 18.7734px;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
