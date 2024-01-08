@@ -1,0 +1,81 @@
+.contenedor{
+    margin:0;
+    
+}
+.numbers{
+   margin-left: 40px;
+    display: flex;
+    align-items: end;
+    height: 60%;
+}
+.tituloOne{
+   
+    width: 35%;
+    font-size: 56px;
+    font-family: chronicle display;
+    font-weight: lighter;
+}
+.textoTwo{
+    font-size: 28.8px;
+    font-family: Gordita;
+    font-weight: normal;
+    padding-bottom: 60px;
+    padding-left: 40px;
+
+}
+.seccion2{
+    display: flex;
+    justify-content: space-around;
+}
+.correo{
+    padding-top: 4%;
+}
+.form{
+    width: 60%;
+    height: 70%;
+    background-color: #ddeaf7;
+    padding-top: 6%;
+    padding-left: 10%;
+    padding-bottom: 6%;
+
+}
+input{
+    width: 87%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: black;
+    margin-top: 12px;
+    height: 36px;
+    background-color: #ddeaf7;
+    border-color: rgb(0, 0, 0);
+    padding: 16px ;
+    font-family: Gordita,sans-serif;
+
+}
+input::placeholder {
+    color: black;
+    font-family: Gordita,sans-serif;
+    font-size: 14.4px;
+  }
+.campos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #878787;
+    font-size: 14.4px;
+    font-family: Gordita,sans-serif;
+}
+.enviar{
+    
+    background-color: #ddeaf7;
+    border: black 1px solid;
+    font-size: 14px;
+    padding: 14px 36px;
+    border-radius: 26px;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: black;
+    color: blue;
+}
+
