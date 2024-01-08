@@ -1,14 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 import "./QueHacemos.css";
-const QueHacemos= ()=>{
-    // Estado para controlar la visibilidad de las respuestas
-    const [mostrarRespuestas, setMostrarRespuestas] = useState([false]);
+const QueHacemos = () => {
+  // Estado para controlar la visibilidad de las respuestas
+  const [mostrarRespuestas, setMostrarRespuestas] = useState([false]);
 
-
-      // Función para cambiar la visibilidad de una respuesta específica
-    const toggleRespuesta = (index) => {
-      setMostrarRespuestas((prevState) => {
+  // Función para cambiar la visibilidad de una respuesta específica
+  const toggleRespuesta = (index) => {
+    setMostrarRespuestas((prevState) => {
       const nuevosEstados = [...prevState];
       nuevosEstados[index] = !nuevosEstados[index];
       return nuevosEstados;
@@ -18,6 +17,7 @@ const QueHacemos= ()=>{
       setMostrarRespuestas(!mostrarRespuestas[index]);
     };
   };
+
     return (
         <>        
           <section class="style-0">
@@ -151,13 +151,11 @@ const QueHacemos= ()=>{
               <button onClick={() => toggleRespuesta(0)}>Mostrar respuesta</button>
               {mostrarRespuestas[0] && <p>Respuesta 1</p>}
             </div>
-
             <div>
               <h3>Pregunta 2</h3>
               <button onClick={() => toggleRespuesta(1)}>Mostrar respuesta</button>
               {mostrarRespuestas[1] && <p>Respuesta 2</p>}
             </div>
-
             <div>
               <h3>Pregunta 3</h3>
               <button onClick={() => toggleRespuesta(2)}>Mostrar respuesta</button>
@@ -166,9 +164,9 @@ const QueHacemos= ()=>{
 
           
           
-        </>
-        
-    )
-    }
-    
+        </>    
+  );
+};
+
 export default QueHacemos;
+

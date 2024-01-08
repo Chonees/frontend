@@ -1,4 +1,3 @@
-
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import QueHacemos from "./views/QueHacemos/QueHacemos";
@@ -6,15 +5,18 @@ import Analisis from "./views/AnalisisFun/Analisis";
 import Servicios from "./views/Servicios";
 import QuienesSomos from "./views/QuienesSomos";
 import Redes from "./views/Redes";
-import Contacto from "./views/Contacto";
+import Contacto from "./views/Contacto/Contacto";
 import Faqs from "./views/Faqs";
+import Faqs from "./views/Faqs/Faqs.jsx";
 import Home from "./views/Home/Home";
 import NotFound from "./views/NotFound/NotFound";
 import Footer from "./components/Footer/Footer";
+import Navbar from "./components/NavBar/Navbar.jsx";
 
 function App() {
   return (
     <>
+      <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/que-hacemos" element={<QueHacemos />} />
@@ -26,7 +28,7 @@ function App() {
         <Route path="/faqs" element={<Faqs />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    <Footer></Footer>
+      <Footer />
     </>
   );
 }
