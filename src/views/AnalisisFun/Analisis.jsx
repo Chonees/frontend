@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 
 
 const Analisis =()=>{
+
   
   const elementos=["Función digestiva y permeabilidad intestinal", "Función hormonal, reproductiva y fertilidad","Metabolismo y fluctuaciones de peso","Función neuroendocrina y cognitiva","Función inmune e inflamación crónica","Nutrición celular e intracelular","Estrés, energía y fatiga crónica","Ritmo circadiano y melatonina","Marcadores epigenéticos y envejecimiento celular","Panel cardiovascular funcional avanzado","Alergias, Intolerancias y sensibilidades alimentarias","Reacción cruzada al gluten y otras moléculas del trigo"]
 
@@ -83,9 +84,46 @@ Lifestyle & Functional Medicine. Para conocer más sobre nuestra metodología in
 
     </div>
    
+      <div className={styles.five}>
+        <h4 className={styles.titulo4}>
+        Descargá nuestro brochure y conocé más
+          sobre nuestra metodología.
+        </h4>
+        <button className={styles.boton1}>Descargar brochure</button>
+      </div>
+      <div className={styles.six}>
+        <div className={styles.contenedor3}>
 
+        <h3 className={styles.h3}>¿Cuál es su diferencial?</h3>
+    <p>Estamos habituados a los análisis clínicos convencionales cuyo objetivo es realizar un diagnóstico médico e identificar una patología si la hubiere. En cambio, los análisis funcionales, como dice su nombre, buscan comprender el nivel de salud de las distintas funciones orgánicas, y nos indican de forma precisa cómo recuperar su capacidad óptima.</p>
 
-     
+    <h3 className={styles.h3}>¿Cómo puedo acceder a ellos?</h3>
+    <h3>Planes Mind</h3>
+
+    <p>Comienza tu proceso en el abordaje del Lifestyle & Functional Medicine agendando una consulta inicial donde evaluaremos tu historia y tus motivos de consulta para indicarte cuáles son los análisis adecuados para tí.</p>
+
+    
+    <h3 className={styles.h3}>Contactar</h3>
+    <h3>Profesionales de la salud</h3>
+    <p>Si eres un profesional de la salud y te interesa incorporar estos análisis a tu práctica clínica, contactanos para agendar una instancia y explorar las diferentes modalidades de acceso.</p>
+</div>
+<div className={styles.contenedor4}>
+    
+<img  src="https://mindlatam.com/wp-content/themes/mind/img/analisis-funcionales/analisis-2.jpg" width="450" height="590" alt="Análisis 3" loading="lazy" decoding="async"></img>
+</div>
+
+      </div>
+     <div className={styles.carrusel}> 
+     <img  src="https://mindlatam.com/wp-content/uploads/2021/10/analisis-3-mind.jpg" width="100%" height="956"   alt="Analisis 3"></img>
+     </div>
+
+     <div className={styles.seven}>
+      <h3 className={styles.titulo7}> ¿Te interesa saber más?</h3>
+      <NavLink to={`/contacto`}>
+      <button className={styles.boton1}>contactar</button>
+      </NavLink>
+
+     </div>
     </div>
   );
 }
