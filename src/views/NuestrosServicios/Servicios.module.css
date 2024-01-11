@@ -1,0 +1,51 @@
+.contenedor1{
+    display: flex;
+    align-items: end;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 30px;
+    
+}
+.conoce{
+    width: 50%;
+    font-size: 56px;
+    font-family: "chronicle display",serif;
+    margin-left: 35px;
+}
+.herramientas{
+    
+    width: 50%;
+    font-size: 28.8px;
+    font-family: Gordita;
+    padding-bottom: 12px;
+    padding-top: 11%;  
+    
+}
+.seccion3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 85%;
+    text-align: center;
+    margin-left: 8%;
+    font-family: "chronicle display",serif;
+    font-size: 28.8px;
+    
+}
+.seccion4{
+    display: flex;
+    width: 100%;
+}
+.img1{
+    width: 10%;
+    
+}
+.img2{
+    padding-top: 90px;
+}
+.img3{
+    width: 30%;
+    padding-left: 239px;
+    background-color: aqua;
+    font-size: 20px;
+    
+}
