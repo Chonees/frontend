@@ -45,7 +45,44 @@
 .img3{
     width: 30%;
     padding-left: 239px;
-    background-color: aqua;
+    ;
     font-size: 20px;
     
+}
+.primeros{
+    font-size: 23px;
+    color: #084a58;
+    padding: 12px 60px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.primeros:hover{
+    background-color: #084a58;
+    color: white;
+}
+.titulo23{
+    font-size: 32px;
+    font-family: "chronicle display",serif;
+    text-align: center;
+    margin-top: 40px;
+}
+.tresbotones{
+    margin-left:32%;
+    margin-bottom: 40px;
+    
+}
+
+.btn{
+    color: #084a58;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 20px ;
+    margin: 0 10px;
+}
+.btn:hover{
+    color: white;
+    background-color: #084a58;
 }

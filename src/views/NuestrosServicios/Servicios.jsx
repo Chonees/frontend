@@ -1,5 +1,6 @@
 import styles from "./Servicios.module.css"
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const Servicios=()=>{
 
     const [button1Active, setButton1Active] = useState(false);
@@ -50,9 +51,11 @@ const Servicios=()=>{
             </div>
             <div className={styles.img3}>
           
-        <h3>Nuestros Planes</h3>
-            <button onClick={() => handleToggle(1)}>
-        {button1Active ? 'Desactivar' : 'Activar'} Botón 1
+        <h2>Nuestros Planes</h2>
+
+
+            <button className={styles.primeros} onClick={() => handleToggle(1)}>
+        {button1Active ? 'Plan Asignature -' : 'Plan Asignature +'} 
       </button>
       {button1Active && (
         <div>
@@ -62,8 +65,8 @@ const Servicios=()=>{
     <br />
 
 
-<button onClick={() => handleToggle(2)}>
-        {button2Active ? 'Desactivar' : 'Activar'} Botón 2
+<button className={styles.primeros} onClick={() => handleToggle(2)}>
+        {button2Active ? 'Plan Element -' : 'Plan Element +'} 
       </button>
       {button2Active && (
         <div>
@@ -72,8 +75,8 @@ const Servicios=()=>{
       )}
       <br />
 
-<button onClick={() => handleToggle(3)}>
-        {button3Active ? 'Desactivar' : 'Activar'} Botón 3
+<button className={styles.primeros} onClick={() => handleToggle(3)}>
+        {button3Active ? 'Plan Internacional -' : 'Plan Internacional +'} 
       </button>
       {button3Active && (
         <div>
@@ -83,8 +86,8 @@ const Servicios=()=>{
       <br />
 
 
-<button onClick={() => handleToggle(4)}>
-        {button4Active ? 'Desactivar' : 'Activar'} Botón 4
+<button className={styles.primeros} onClick={() => handleToggle(4)}>
+        {button4Active ? 'Mind Empresas -' : 'Mind Empresas +'} 
       </button>
       {button4Active && (
         <div>
@@ -94,7 +97,16 @@ const Servicios=()=>{
             </div>
 
             </div>
-
+        <h3 className={styles.titulo23}>
+        Te invitamos a conocer más.
+        </h3>
+        <div className={styles.tresbotones}>
+          <button className={styles.btn}>metodología</button>
+          <Link to={`/analisis`}>
+          <button className={styles.btn}>análisis funcionales</button>
+          </Link>
+          <button className={styles.btn}>desacargar brochure</button>
+        </div>
 
         </div>
 
