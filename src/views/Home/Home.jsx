@@ -1,35 +1,28 @@
-import React, { useState } from "react";
-import "./Home.css";
+import styles from "./Home.module.css";
 const Home = () => {
   return (
-    <>
-      <div>
-        <h1 class="style-1">
-          Fortalecer
-          <br /> Restaurar <br /> Vivir mejor
-        </h1>
-        <div class="divlifestyle">
-          <h2 class="style-2">Lifestyle & Functional Medicine </h2>
-        </div>
-        <img
-          src="https://mindlatam.com/wp-content/themes/mind/img/home/mosaico-2.jpg"
-          alt="Mind"
-          width="1920"
-          height="1279"
-          loading="lazy"
-          decoding="async"
-          class="style-3"
-        />
-        <div>
-          <h2 class="style-4" data-sr-id="9">
-            Una nueva solución <br class="style-5" />
-            para tu salud <br class="style-6" />
-            que va a la raíz <br class="style-7" />
-            de tus síntomas.
-          </h2>
-        </div>
+    <div className={styles.principal}>
+      <section className={styles.section}>
+
+      <div className={styles.titulo1}>
+
+      <span className={styles.fortaceler}>Fortalecer </span>
+      <span className={styles.fortaceler}>Restaurar</span>
+      <span className={styles.fortaceler}> Vivir mejor</span>
       </div>
-    </>
+      <div className={styles.titulo2}>
+        <h3>Lifestyle & Functional Medicine</h3>
+      </div>
+    </section>
+    <section className={styles.section2}>
+    <div>
+    <img src="https://mindlatam.com/wp-content/themes/mind/img/home/mosaico-2.jpg" alt="Mind" width="100%" height="1050" loading="lazy" decoding="async"/>
+    </div>
+    <div></div>
+    <div></div>
+
+    </section>
+    </div>
   );
 };
 

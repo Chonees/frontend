@@ -1,0 +1,25 @@
+.titulo1{
+    width: 25%;
+    
+    margin-left: 35px;
+}
+
+.fortaceler{
+font-size: 56px;
+
+}
+.titulo2{
+    font-size: 28.8px;
+    font-family: Gordita;
+    padding-top: 8%;
+    margin-left: 25%;
+    
+    
+}
+.section{
+    display: flex;  
+    margin-top: 10%;
+}
+.section2{
+   margin-top: 15px;
+}
