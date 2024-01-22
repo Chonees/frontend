@@ -1,22 +1,21 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 import "./QueHacemos.css";
-const QueHacemos = () => {
-  // Estado para controlar la visibilidad de las respuestas
-  const [mostrarRespuestas, setMostrarRespuestas] = useState([false]);
 
-  // Función para cambiar la visibilidad de una respuesta específica
-  const toggleRespuesta = (index) => {
-    setMostrarRespuestas((prevState) => {
-      const nuevosEstados = [...prevState];
-      nuevosEstados[index] = !nuevosEstados[index];
-      return nuevosEstados;
-    });
 
-    const handleClick = (index) => {
-      setMostrarRespuestas(!mostrarRespuestas[index]);
+
+
+
+
+
+const QueHacemos= ()=>{
+    // Estado para controlar la visibilidad de las respuestas
+    const [mostrarRespuesta, setMostrarRespuesta] = useState(false);
+    
+    const handleClick = () => {
+        setMostrarRespuesta(!mostrarRespuesta);
     };
-  };
+
 
     return (
         <>        
@@ -114,7 +113,7 @@ const QueHacemos = () => {
                 </div>
             </div>
           </section>
-          {/* ----------------------------------------------------- o ------------------------------------------ */}
+          {/* /* ----------------------------------------------------- o ------------------------------------------ */}
           <section class="style-79">
             <h3 class="style-80" data-sr-id="3">Pilares de intervención</h3>
             <article class="style-81" data-sr-id="12">
@@ -125,48 +124,81 @@ const QueHacemos = () => {
                         <li class="style-86"><img class="style-87" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
                             <div class="style-88">Alimentación y <br class="style-89" /> Suplementación</div>
                         </li>
-                        <li class="style-11"><img class="style-12" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
-                            <div class="style-13">Gestión del estrés <br class="style-14" /> y relajación</div>
+                        <li class="style-90"><img class="style-91" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
+                            <div class="style-92">Gestión del estrés <br class="style-93" /> y relajación</div>
                         </li>
-                        <li class="style-15"><img class="style-16" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
-                            <div class="style-17">Ritmo circadiano <br class="style-18" /> y sueño</div>
+                        <li class="style-94"><img class="style-95" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
+                            <div class="style-96">Ritmo circadiano <br class="style-97" /> y sueño</div>
                         </li>
-                        <li class="style-19"><img class="style-20" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
-                            <div class="style-21">Actividad Física <br class="style-22" /> y Movimiento</div>
+                        <li class="style-98"><img class="style-99" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
+                            <div class="style-100">Actividad Física <br class="style-101" /> y Movimiento</div>
                         </li>
-                        <li class="style-23"><img class="style-24" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
-                            <div class="style-25">Actitud <br class="style-26" /> y Mindset</div>
+                        <li class="style-102"><img class="style-103" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
+                            <div class="style-104">Actitud <br class="style-105" /> y Mindset</div>
                         </li>
-                        <li class="style-27"><img class="style-28" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
-                            <div class="style-29">Relaciones y <br class="style-30" /> Medio Ambiente </div>
+                        <li class="style-106"><img class="style-107" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
+                            <div class="style-108">Relaciones y <br class="style-109" /> Medio Ambiente </div>
                         </li>
                     </ul>
                 </div>
             </article>
           </section>
-          {/* <div>
+        {/* ------------------------------------------ O --------------------------------------------------------------- */}
+        <video preload="" autoplay="" playsinline="" loop="" muted="" class="style-110" loading="lazy" data-sr-id="18">
+            <source data-src="https://mindlatam.com/wp-content/themes/mind/video/slideshow.mp4" type="video/mp4" src="https://mindlatam.com/wp-content/themes/mind/video/slideshow.mp4" class="style-111" /> Your browser does not support the video tag.
+        </video>
+
+        {/* ----------------------------------------------- O ------------------------------------------------------------------ */}
+        <section class="style-112">
+            <h4 class="style-113">Te invitamos a conocer más <br class="style-114" />sobre nuestra propuesta</h4>
+            <div class="style-115"><a href="https://mindlatam.com/nuestros-servicios" class="style-116">Nuestros servicios</a><a href="https://mindlatam.com/brochure" class="style-117" target="_blank">Descargar brochure</a><a href="https://mindlatam.com/analisis-funcionales" class="style-118">Análisis funcionales</a></div>
+        </section>
+
+        {/* -------------------------------------------------- 0 ---------------------------------------------------------------------------- */}
+
+            <div class="style-120">
+                <h3 class="style-121">Áreas de intervención</h3>
+            </div>
+        <section class="style-119">
+            <div class="style-122">
+
+                <figure class="style-123">
+                    <img src="https://mindlatam.com/wp-content/themes/mind/img/que-hacemos/que-hacemos-4.jpg" alt="Areas de intervención" width="200" height="300" class="style-124"/>
+                </figure>
+            </div>
+            <div class="style-125">
+                    <div>
+                        <h4 class="style-126">Salud Hormonal y Metabólica</h4>
+                    </div>
+                    <div class="style-127">
+                        <h4 class="style-128"></h4><button class="style-129">X</button>
+                    </div>
+            </div>
+
+        </section>
+                {/* <div>
             <h2>Nuestro abordaje</h2>
             <div>
               <h3>Pregunta 1</h3>
               <button onClick={() => toggleRespuesta(0)}>Mostrar respuesta</button>
               {mostrarRespuestas[0] && <p>Respuesta 1</p>}
             </div>
+
             <div>
               <h3>Pregunta 2</h3>
               <button onClick={() => toggleRespuesta(1)}>Mostrar respuesta</button>
               {mostrarRespuestas[1] && <p>Respuesta 2</p>}
             </div>
+
             <div>
               <h3>Pregunta 3</h3>
               <button onClick={() => toggleRespuesta(2)}>Mostrar respuesta</button>
               {mostrarRespuestas[2] && <p>Respuesta 3</p>}
             </div> */}
 
-          
-          
-        </>    
-  );
-};
-
+    </>
+        
+    )
+    }
+    
 export default QueHacemos;
-
