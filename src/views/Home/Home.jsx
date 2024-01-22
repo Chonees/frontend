@@ -39,6 +39,26 @@ const Home = () => {
           </h2>
         </div>
       </section>
+      <section className={styles.containerGrid-2}>
+        <div className={styles.divGrid-2}>
+          <figure className={styles.figureGrid-1}>
+            <img className={styles.imgGrid-1} height="70px" width="70px" src="https://mindlatam.com/wp-content/themes/mind/img/icons/clock-tick.svg" alt="" loading="lazy" decoding="async"/>
+          </figure>
+          <p className={styles.pGrid-1}>
+          Optimizá tu nutrición, tu entorno, tu expresión genética y tu estilo de vida. Prevení, restaurá
+           y revertí disfunciones crónicas. Desarrollá tu máxima expresión de salud y vitalidad.
+          </p>
+        </div>
+        <div className={styles.containerGrid-3}>
+          <h3 className={styles.h3Grid-1}>
+            Somos el primer centro especializado 
+            <br class="style-8" />
+            en Lifestyle &amp; Functional Medicine 
+            <br class="style-9" />
+            del Cono Sur.
+          </h3>
+        </div>
+      </section>
     </div>
   );
 };
