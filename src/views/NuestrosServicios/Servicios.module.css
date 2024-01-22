@@ -79,10 +79,25 @@
     background-color: white;
     border-radius: 20px;
     cursor: pointer;
-    padding: 20px ;
+    padding: 20px 45px ;
     margin: 0 10px;
 }
 .btn:hover{
     color: white;
     background-color: #084a58;
+}
+.carrusel{
+    background-color: #084a58;
+    text-align: center;
+    height: 40%;
+    font-size: 17.6px;
+    font-family: "Gordita",sans-serif;
+    color: #ffffff;
+}
+.textCarrusel{
+    color: #ffffff;
+    width: 30%;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: Chronicle;
 }

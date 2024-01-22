@@ -3,6 +3,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 const Servicios=()=>{
 
+  
+
     const [button1Active, setButton1Active] = useState(false);
     const [button2Active, setButton2Active] = useState(false);
     const [button3Active, setButton3Active] = useState(false);
@@ -108,6 +110,14 @@ const Servicios=()=>{
           <button className={styles.btn}>desacargar brochure</button>
         </div>
 
+
+        {/* aqui va el carrusel */}
+        <section className={styles.carrusel}>
+          <h3>---- Testimonios ----</h3>
+
+          <p className={styles.textCarrusel}>El tratamiento me hizo reencontrar con la versión de mí que añoraba por un lado y deseaba por otro. Que añoraba a nivel físico (peso, dolores, etc.), y que deseaba en cuanto a un nuevo estilo de vida más armonioso conmigo y con el entorno.</p>
+
+        </section>
         </div>
 
     )
