@@ -23,3 +23,30 @@ font-size: 56px;
 .section2{
    margin-top: 15px;
 }
+
+.containerGrid{
+    padding-top: 7rem!important;
+    padding-bottom: 7rem!important;
+    display: grid;
+    grid-template-columns: repeat(12,minmax(0,1fr));
+    width: 50%;
+    max-width: 100vw;
+    align-content: baseline;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 50%;
+}
+
+.divGrid{
+    grid-column: 1/13;
+    padding-bottom: 16rem!important;
+    box-sizing: border-box;
+    display: block;
+}
+.h2Grid{
+    margin: 0px 0px 23.24px;
+    font-family: 'Gordita', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+} 
+
