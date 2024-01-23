@@ -60,7 +60,7 @@ font-size: 56px;
 .divGrid-2 {
     display:grid;
     grid-template-columns: repeat(12, 92px);
-    object-fit: cover;
+
 }
 
 .figureGrid-1 {
@@ -84,6 +84,7 @@ font-size: 56px;
 }
 
 .containerGrid-3 {
+    display: grid;
     grid-column: 2 / 12;
     margin-bottom: 0px;
     grid-auto-rows: minmax(min-content, max-content);
@@ -97,4 +98,33 @@ font-size: 56px;
     font-weight: 400;
     margin-top: 0px;
     font-family: 'Chronicle Display', serif;
+}
+
+.pictureGrid-1 {
+    width: 30%;
+    left: 680px;
+    right: 100px;
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+
+}
+
+.imgGrid-2 {
+    width: 100%;
+    height: 612.766px;
+    vertical-align: bottom;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.pictureGrid-2 {
+    width: 35%;
+    top: 0px;
+    left: 884px;
+    right: 0px;
+    transform: matrix(1, 0, 0, 1, 0, -214.2);
+    z-index: 1;
+    position: absolute;
+    pointer-events: none;
 }

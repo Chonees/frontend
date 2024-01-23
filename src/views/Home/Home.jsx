@@ -50,7 +50,7 @@ const Home = () => {
           </p>
         </div>
         <div className={styles.containerGrid-3}>
-          <h3 className={styles.h3Grid-1}>
+          <h3 className={styles.h3-1}>
             Somos el primer centro especializado 
             <br class="style-8" />
             en Lifestyle &amp; Functional Medicine 
@@ -58,6 +58,12 @@ const Home = () => {
             del Cono Sur.
           </h3>
         </div>
+        <picture className={styles.pictureGrid-1}>
+         <img className={styles.imgGrid-2} src="https://mindlatam.com/wp-content/themes/mind/img/home/img-layer-1a.jpg" alt="" width="528px" height="793px"/>
+        </picture>
+        <picture className={styles.pictureGrid-2}> 
+          <img className={styles.imgGrid-3} src="https://mindlatam.com/wp-content/themes/mind/img/home/img-layer-1b.jpg" alt="" width="584px" height="876px"/>
+        </picture>
       </section>
     </div>
   );
