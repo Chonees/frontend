@@ -39,34 +39,50 @@ const Home = () => {
           </h2>
         </div>
       </section>
-      <section className={styles.containerGrid-2}>
-        <div className={styles.divGrid-2}>
-          <figure className={styles.figureGrid-1}>
-            <img className={styles.imgGrid-1} height="70px" width="70px" src="https://mindlatam.com/wp-content/themes/mind/img/icons/clock-tick.svg" alt="" loading="lazy" decoding="async"/>
-          </figure>
-          <p className={styles.pGrid-1}>
-          Optimizá tu nutrición, tu entorno, tu expresión genética y tu estilo de vida. Prevení, restaurá
-           y revertí disfunciones crónicas. Desarrollá tu máxima expresión de salud y vitalidad.
-          </p>
+      <section className={styles.containerflex}>
+        <div className={styles.containerBlue}>
+          <div className={styles.contentBlue}>
+            <img className={styles.imgGrid - 1} width="50%" src="https://mindlatam.com/wp-content/themes/mind/img/icons/clock-tick.svg" alt="" loading="lazy" decoding="async" />
+            <div className={styles.p2container}>
+              <p className={styles.pGrid-1}>
+                Optimizá tu nutrición, tu entorno, tu expresión genética y tu estilo de vida. Prevení, restaurá
+                y revertí disfunciones crónicas. Desarrollá tu máxima expresión de salud y vitalidad.
+              </p>
+            <div>
+              <p>Somos el primer centro especializado </p><br />
+              <p>en Lifestyle &amp; Functional Medicine </p><br />
+              <p>del Cono Sur.</p><br />
+            </div>
+          </div>
+          </div>  
         </div>
-        <div className={styles.containerGrid-3}>
-          <h3 className={styles.h3-1}>
-            Somos el primer centro especializado 
-            <br class="style-8" />
-            en Lifestyle &amp; Functional Medicine 
-            <br class="style-9" />
-            del Cono Sur.
-          </h3>
+        <div className={styles.imagenesSuperpuestas}>
+          <div className={styles.grid2_Imagen1}><img src="https://mindlatam.com/wp-content/themes/mind/img/home/img-layer-1a.jpg" alt="" /></div>
+          <div className={styles.grid2_Imagen2}><img width="650" src="https://mindlatam.com/wp-content/themes/mind/img/home/img-layer-1b.jpg" alt="" /></div>
         </div>
-        <picture className={styles.pictureGrid-1}>
-         <img className={styles.imgGrid-2} src="https://mindlatam.com/wp-content/themes/mind/img/home/img-layer-1a.jpg" alt="" width="528px" height="793px"/>
-        </picture>
-        <picture className={styles.pictureGrid-2}> 
-          <img className={styles.imgGrid-3} src="https://mindlatam.com/wp-content/themes/mind/img/home/img-layer-1b.jpg" alt="" width="584px" height="876px"/>
-        </picture>
       </section>
     </div>
   );
 };
 
 export default Home;
+
+{/*  */}
+{/* <section className={styles.containerGrid-2}>  
+  <div className={styles.containerGrid-3}>
+    <h3 className={styles.h3-1}>
+      Somos el primer centro especializado 
+      <br class="style-8" />
+      en Lifestyle &amp; Functional Medicine 
+      <br class="style-9" />
+      del Cono Sur.
+    </h3>
+  </div>
+  <picture className={styles.pictureGrid-1}>
+   <img className={styles.imgGrid-2} src="https://mindlatam.com/wp-content/themes/mind/img/home/img-layer-1a.jpg" alt="" width="528px" height="793px"/>
+  </picture>
+  <picture className={styles.pictureGrid-2}> 
+    <img className={styles.imgGrid-3} src="https://mindlatam.com/wp-content/themes/mind/img/home/img-layer-1b.jpg" alt="" width="584px" height="876px"/>
+  </picture>
+</section> */}
+{/*  */}
