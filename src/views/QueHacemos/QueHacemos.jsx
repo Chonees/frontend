@@ -167,11 +167,8 @@ const QueHacemos= ()=>{
                 </figure>
             </div>
             <div class="style-125">
-                    <div>
-                        <h4 class="style-126">Salud Hormonal y Metabólica</h4>
-                    </div>
-                    <div class="style-127">
-                        <h4 class="style-128"></h4><button class="style-129">X</button>
+                    <div class="style-126">
+                        <h4 class="style-127">Salud Digestiva e Intestinal</h4><button class="style-128">X</button>
                     </div>
             </div>
 
