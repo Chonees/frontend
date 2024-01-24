@@ -10,8 +10,8 @@ import "./QueHacemos.css";
 
 const QueHacemos= ()=>{
     // Estado para controlar la visibilidad de las respuestas
-    const [mostrarRespuesta, setMostrarRespuesta] = useState(false);
-    
+    const [mostrarRespuesta, setMostrarRespuesta] = useState([false,false,false,false,false,false,false,false,false,false]);
+
     const handleClick = () => {
         setMostrarRespuesta(!mostrarRespuesta);
     };
@@ -168,8 +168,12 @@ const QueHacemos= ()=>{
             </div>
             <div class="style-125">
                     <div class="style-126">
-                        <h4 class="style-127">Salud Digestiva e Intestinal</h4><button class="style-128">X</button>
+                        <h4 class="style-127">Salud Digestiva e Intestinal</h4><button onClick={handleClick} class="style-128">X</button>
                     </div>
+                    <div>
+                        {mostrarRespuesta[8] && <p>hola</p>}
+                    </div>
+
             </div>
 
         </section>
