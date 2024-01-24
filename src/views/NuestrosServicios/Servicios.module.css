@@ -1,0 +1,103 @@
+.contenedor1{
+    display: flex;
+    align-items: end;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 30px;
+    
+}
+.conoce{
+    width: 50%;
+    font-size: 56px;
+    font-family: "chronicle display",serif;
+    margin-left: 35px;
+}
+.herramientas{
+    
+    width: 50%;
+    font-size: 28.8px;
+    font-family: Gordita;
+    padding-bottom: 12px;
+    padding-top: 11%;  
+    
+}
+.seccion3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 85%;
+    text-align: center;
+    margin-left: 8%;
+    font-family: "chronicle display",serif;
+    font-size: 28.8px;
+    
+}
+.seccion4{
+    display: flex;
+    width: 100%;
+}
+.img1{
+    width: 10%;
+    
+}
+.img2{
+    padding-top: 90px;
+}
+.img3{
+    width: 30%;
+    padding-left: 239px;
+    ;
+    font-size: 20px;
+    
+}
+.primeros{
+    font-size: 23px;
+    color: #084a58;
+    padding: 12px 60px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.primeros:hover{
+    background-color: #084a58;
+    color: white;
+}
+.titulo23{
+    font-size: 32px;
+    font-family: "chronicle display",serif;
+    text-align: center;
+    margin-top: 40px;
+}
+.tresbotones{
+    margin-left:32%;
+    margin-bottom: 40px;
+    
+}
+
+.btn{
+    color: #084a58;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 20px 45px ;
+    margin: 0 10px;
+}
+.btn:hover{
+    color: white;
+    background-color: #084a58;
+}
+.carrusel{
+    background-color: #084a58;
+    text-align: center;
+    height: 40%;
+    font-size: 17.6px;
+    font-family: "Gordita",sans-serif;
+    color: #ffffff;
+}
+.textCarrusel{
+    color: #ffffff;
+    width: 30%;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: Chronicle;
+}

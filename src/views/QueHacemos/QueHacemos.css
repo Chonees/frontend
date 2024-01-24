@@ -236,8 +236,10 @@
 }
 
 .style-21 {
+  margin-bottom: 24px;
+  font-size: 14.4px;
   scroll-margin-top: 18.7734px;
-  margin: 0px;
+  margin-top: 0px;
   box-sizing: border-box;
 }
 
@@ -259,49 +261,28 @@
 }
 
 .style-24 {
-  justify-content: flex-start;
-  grid-column: 7 / 13;
-  padding-top: 160px;
-  margin-top: 0px;
-  display: flex;
-  grid-auto-rows: minmax(min-content, max-content);
+  margin-bottom: 24px;
+  font-size: 14.4px;
   scroll-margin-top: 18.7734px;
+  margin-top: 0px;
   box-sizing: border-box;
 }
 
 .style-25 {
-  visibility: visible;
-  opacity: 1;
-  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-  transition: opacity 1.3s ease 1.2s, transform 1.3s ease 1.2s;
-  opacity: 1;
-  transform: matrix(1, 0, 0, 1, 0, 0);
-  transition: opacity 1.3s ease 1.2s, transform 1.3s ease 1.2s;
-  width: 80% !important;
-  overflow: visible;
-  perspective: 1200px;
-  touch-action: pan-y;
+  margin-bottom: 24px;
+  font-size: 14.4px;
   scroll-margin-top: 18.7734px;
+  margin-top: 0px;
   box-sizing: border-box;
 }
 
 .style-26 {
-  cursor: grab;
-  transition-duration: 0ms;
-  transform-origin: 50% 50% -253px;
-  transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(-90deg);
-  transition-duration: 0s;
-  transform-origin: 253px 379.5px -253px;
-  transform: matrix3d(0, 0, 1, 0, 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 0, 1);
-  transform-style: preserve-3d;
-  position: relative;
-  width: 100%;
-  height: 759px;
-  z-index: 1;
-  display: flex;
-  transition-property: transform;
-  box-sizing: content-box;
+  width: 10% !important;
   scroll-margin-top: 18.7734px;
+  height: 52.4375px;
+  vertical-align: bottom;
+  box-sizing: border-box;
+  border-style: none;
 }
 
 .style-27 {

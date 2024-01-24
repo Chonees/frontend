@@ -2,7 +2,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import QueHacemos from "./views/QueHacemos/QueHacemos";
 import Analisis from "./views/AnalisisFun/Analisis";
-import Servicios from "./views/Servicios";
+import Servicios from "./views/NuestrosServicios/Servicios.jsx";
 import QuienesSomos from "./views/QuienesSomos";
 import Redes from "./views/Redes";
 import Contacto from "./views/Contacto/Contacto";

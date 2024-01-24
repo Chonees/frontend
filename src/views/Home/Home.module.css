@@ -1,0 +1,173 @@
+.titulo1 {
+    width: 25%;
+    margin-left: 35px;
+}
+
+.fortaceler {
+    font-size: 56px;
+}
+
+.titulo2 {
+    font-size: 28.8px;
+    font-family: Gordita;
+    padding-top: 8%;
+    margin-left: 25%;
+}
+
+.section {
+    display: flex;
+    margin-top: 10%;
+}
+
+.section2 {
+    margin-top: 15px;
+}
+
+.containerGrid {
+    padding-top: 7rem!important;
+    padding-bottom: 7rem!important;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    width: 100%;
+    max-width: 100vw;
+    align-content: baseline;
+    padding: 70px;
+    margin-bottom: 30px;
+}
+
+.divGrid {
+    grid-column: 1/13;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.h2Grid {
+    margin: 0px 0px 23.24px;
+    font-family: 'Gordita', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+} 
+
+.containerGrid-2 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 80px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.divGrid-2 {
+    display: grid;
+    grid-template-columns: repeat(12, 92px);
+}
+
+.figureGrid-1 {
+    width: 50%;
+    margin-bottom: 32px;
+}
+
+.imgGrid-1 {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.pGrid-1 {
+    font-size: 14.4px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.containerGrid-3 {
+    display: grid;
+    grid-column: 2 / 12;
+    margin-bottom: 0px;
+    grid-auto-rows: minmax(min-content, max-content);
+    margin-top: 80px;
+}
+
+.h3-1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+    margin-top: 0px;
+    font-family: 'Chronicle Display', serif;
+}
+
+.pictureGrid-1 {
+    width: 30%;
+    left: 680px;
+    right: 100px;
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+}
+
+.imgGrid-2 {
+    width: 100%;
+    height: 612.766px;
+    vertical-align: bottom;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.pictureGrid-2 {
+    width: 35%;
+    top: 0px;
+    left: 884px;
+    right: 0px;
+    transform: matrix(1, 0, 0, 1, 0, -214.2);
+    z-index: 1;
+    position: absolute;
+    pointer-events: none;
+}
+.containerflex {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.contentBlue {
+  padding-left: 6%;
+  padding-top: 100px;
+  width: 22%;
+}
+
+.containerBlue {
+  background-color: #dae8e8;
+  width: 65vw;
+  height: 1100px;
+  font-family: 'Gordita', sans-serif;
+  font-size: 21px;
+  font-weight: lighter;
+  position: relative;
+  z-index: 1; /* Z-index para containerBlue */
+}
+
+.p2container {
+  line-height: 1.3;
+  font-stretch: ultra-expanded;
+  color: rgb(78, 78, 78);
+}
+
+.grid2_Imagen1 {
+  position: absolute;
+  top: -200px;
+  left: -370px;
+  width: 100%; /* Ajusta según tus necesidades */
+  z-index: 2; /* Z-index mayor que grid2_Imagen2 y containerBlue */
+}
+
+.grid2_Imagen2 {
+  position: absolute;
+  bottom: 450px;
+
+  z-index: 1; /* Z-index menor que grid2_Imagen1 y containerBlue */
+}
+
+.imagenesSuperpuestas {
+  position: relative; /* Ajusta según tus necesidades */
+}
