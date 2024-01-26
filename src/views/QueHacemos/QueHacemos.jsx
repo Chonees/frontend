@@ -1,22 +1,21 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 import "./QueHacemos.css";
-const QueHacemos = () => {
-  // Estado para controlar la visibilidad de las respuestas
-  const [mostrarRespuestas, setMostrarRespuestas] = useState([false]);
 
-  // Función para cambiar la visibilidad de una respuesta específica
-  const toggleRespuesta = (index) => {
-    setMostrarRespuestas((prevState) => {
-      const nuevosEstados = [...prevState];
-      nuevosEstados[index] = !nuevosEstados[index];
-      return nuevosEstados;
-    });
 
-    const handleClick = (index) => {
-      setMostrarRespuestas(!mostrarRespuestas[index]);
+
+
+
+
+
+const QueHacemos= ()=>{
+    // Estado para controlar la visibilidad de las respuestas
+    const [mostrarRespuesta, setMostrarRespuesta] = useState([false,false,false,false,false,false,false,false,false,false]);
+
+    const handleClick = () => {
+        setMostrarRespuesta(!mostrarRespuesta);
     };
-  };
+
 
   return (
     <>
@@ -301,6 +300,74 @@ const QueHacemos = () => {
                 </div>
               </div>
             </div>
+
+          </section>
+          {/* /* ----------------------------------------------------- o ------------------------------------------ */}
+          <section class="style-79">
+            <h3 class="style-80" data-sr-id="3">Pilares de intervención</h3>
+            <article class="style-81" data-sr-id="12">
+                <p class="style-82">Trabajaremos en revitalizar, detoxificar, optimizar y recalibrar tu organismo de forma sistémica yendo a las causas detrás de tus síntomas mediante intervenciones personalizadas en nuestros seis pilares:</p>
+                <hr class="style-83" />
+                <div class="style-84">
+                    <ul class="style-85">
+                        <li class="style-86"><img class="style-87" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
+                            <div class="style-88">Alimentación y <br class="style-89" /> Suplementación</div>
+                        </li>
+                        <li class="style-90"><img class="style-91" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
+                            <div class="style-92">Gestión del estrés <br class="style-93" /> y relajación</div>
+                        </li>
+                        <li class="style-94"><img class="style-95" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
+                            <div class="style-96">Ritmo circadiano <br class="style-97" /> y sueño</div>
+                        </li>
+                        <li class="style-98"><img class="style-99" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
+                            <div class="style-100">Actividad Física <br class="style-101" /> y Movimiento</div>
+                        </li>
+                        <li class="style-102"><img class="style-103" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
+                            <div class="style-104">Actitud <br class="style-105" /> y Mindset</div>
+                        </li>
+                        <li class="style-106"><img class="style-107" src="https://mindlatam.com/wp-content/themes/mind/img/icons/label-sky.svg" alt="" loading="lazy" decoding="async" />
+                            <div class="style-108">Relaciones y <br class="style-109" /> Medio Ambiente </div>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+          </section>
+        {/* ------------------------------------------ O --------------------------------------------------------------- */}
+        <video preload="" autoplay="" playsinline="" loop="" muted="" class="style-110" loading="lazy" data-sr-id="18">
+            <source data-src="https://mindlatam.com/wp-content/themes/mind/video/slideshow.mp4" type="video/mp4" src="https://mindlatam.com/wp-content/themes/mind/video/slideshow.mp4" class="style-111" /> Your browser does not support the video tag.
+        </video>
+
+        {/* ----------------------------------------------- O ------------------------------------------------------------------ */}
+        <section class="style-112">
+            <h4 class="style-113">Te invitamos a conocer más <br class="style-114" />sobre nuestra propuesta</h4>
+            <div class="style-115"><a href="https://mindlatam.com/nuestros-servicios" class="style-116">Nuestros servicios</a><a href="https://mindlatam.com/brochure" class="style-117" target="_blank">Descargar brochure</a><a href="https://mindlatam.com/analisis-funcionales" class="style-118">Análisis funcionales</a></div>
+        </section>
+
+        {/* -------------------------------------------------- 0 ---------------------------------------------------------------------------- */}
+
+            <div class="style-120">
+                <h3 class="style-121">Áreas de intervención</h3>
+            </div>
+        <section class="style-119">
+            <div class="style-122">
+
+                <figure class="style-123">
+                    <img src="https://mindlatam.com/wp-content/themes/mind/img/que-hacemos/que-hacemos-4.jpg" alt="Areas de intervención" width="200" height="300" class="style-124"/>
+                </figure>
+            </div>
+            <div class="style-125">
+                    <div class="style-126">
+                        <h4 class="style-127">Salud Digestiva e Intestinal</h4><button onClick={handleClick} class="style-128">X</button>
+                    </div>
+                    <div>
+                        {mostrarRespuesta[8] && <p>hola</p>}
+                    </div>
+
+            </div>
+
+        </section>
+                {/* <div>
+=======
           </div>
         </div>
       </section>
@@ -384,18 +451,24 @@ const QueHacemos = () => {
               <button onClick={() => toggleRespuesta(0)}>Mostrar respuesta</button>
               {mostrarRespuestas[0] && <p>Respuesta 1</p>}
             </div>
+
             <div>
               <h3>Pregunta 2</h3>
               <button onClick={() => toggleRespuesta(1)}>Mostrar respuesta</button>
               {mostrarRespuestas[1] && <p>Respuesta 2</p>}
             </div>
+
             <div>
               <h3>Pregunta 3</h3>
               <button onClick={() => toggleRespuesta(2)}>Mostrar respuesta</button>
               {mostrarRespuestas[2] && <p>Respuesta 3</p>}
             </div> */}
+
+
     </>
+        
   );
 };
 
 export default QueHacemos;
+
